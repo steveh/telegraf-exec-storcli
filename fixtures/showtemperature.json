@@ -1,0 +1,22 @@
+{
+"Controllers":[
+{
+	"Command Status" : {
+		"CLI Version" : "007.1904.0000.0000 Jun 22, 2021",
+		"Operating system" : "Linux 5.13.0-22-generic",
+		"Controller" : 0,
+		"Status" : "Success",
+		"Description" : "None"
+	},
+	"Response Data" : {
+		"Controller Properties" : [
+			{
+				"Ctrl_Prop" : "ROC temperature(Degree Celsius)",
+				"Value" : "57"
+			}
+		]
+	}
+}
+]
+}
+

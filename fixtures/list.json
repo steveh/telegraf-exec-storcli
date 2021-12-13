@@ -1,0 +1,33 @@
+{
+"Controllers":[
+{
+	"Command Status" : {
+		"CLI Version" : "007.1904.0000.0000 Jun 22, 2021",
+		"Operating system" : "Linux 5.13.0-22-generic",
+		"Status Code" : 0,
+		"Status" : "Success",
+		"Description" : "None"
+	},
+	"Response Data" : {
+		"Number of Controllers" : 1,
+		"Host Name" : "titan",
+		"Operating System " : "Linux 5.13.0-22-generic",
+		"StoreLib IT Version" : "07.1903.0200.0000",
+		"StoreLib IR3 Version" : "16.14-0",
+		"IT System Overview" : [
+			{
+				"Ctl" : 0,
+				"Model" : "HBA 9400-16i",
+				"AdapterType" : "  SAS3416(B0)",
+				"VendId" : 4096,
+				"DevId" : 172,
+				"SubVendId" : 4096,
+				"SubDevId" : 12288,
+				"PCI Address" : "00:01:00:00"
+			}
+		]
+	}
+}
+]
+}
+

@@ -1,0 +1,2041 @@
+{
+"Controllers":[
+{
+	"Command Status" : {
+		"CLI Version" : "007.1904.0000.0000 Jun 22, 2021",
+		"Operating system" : "Linux 5.13.0-22-generic",
+		"Controller" : 0,
+		"Status" : "Success",
+		"Description" : "None"
+	},
+	"Response Data" : {
+		"Basics" : {
+			"Controller" : 0,
+			"Adapter Type" : "  SAS3416(B0)",
+			"Model" : "HBA 9400-16i",
+			"Serial Number" : "XW84310366",
+			"Current System Date/time" : "12/13/2021 16:41:06",
+			"Concurrent commands supported" : 6656,
+			"SAS Address" : " 500605b00e019a0a",
+			"PCI Address" : "00:01:00:00"
+		},
+		"Version" : {
+			"Firmware Package Build" : "20.00.00.00",
+			"Firmware Version" : "20.00.00.00",
+			"Bios Version" : "09.33.00.00_20.00.00.00",
+			"NVDATA Version" : "20.02.00.22",
+			"PSOC Version" : "05689001",
+			"Driver Name" : "mpt3sas",
+			"Driver Version" : "38.100.00.00"
+		},
+		"PCI Version" : {
+			"Vendor Id" : 4096,
+			"Device Id" : 172,
+			"SubVendor Id" : 4096,
+			"SubDevice Id" : 12288,
+			"Host Interface" : "PCIE",
+			"Device Interface" : "SAS-12G",
+			"Bus Number" : 1,
+			"Device Number" : 0,
+			"Function Number" : 0,
+			"Domain ID" : 0
+		},
+		"Pending Images in Flash" : {
+			"Image name" : "No pending images"
+		},
+		"Status" : {
+			"Controller Status" : "OK",
+			"Memory Correctable Errors" : 0,
+			"Memory Uncorrectable Errors" : 0,
+			"Bios was not detected during boot" : "No",
+			"Controller has booted into safe mode" : "No",
+			"Controller has booted into certificate provision mode" : "No"
+		},
+		"Supported Adapter Operations" : {
+			"Alarm Control" : "No",
+			"Cluster Support" : "No",
+			"Self Diagnostic" : "No",
+			"Deny SCSI Passthrough" : "No",
+			"Deny SMP Passthrough" : "No",
+			"Deny STP Passthrough" : "No",
+			"Support more than 8 Phys" : "Yes",
+			"FW and Event Time in GMT" : "No",
+			"Support Enclosure Enumeration" : "Yes",
+			"Support Allowed Operations" : "Yes",
+			"Support Multipath" : "Yes",
+			"Support Security" : "No",
+			"Support Config Page Model" : "No",
+			"Support the OCE without adding drives" : "No",
+			"support EKM" : "No",
+			"Snapshot Enabled" : "No",
+			"Support PFK" : "No",
+			"Support PI" : "No",
+			"Support Shield State" : "No",
+			"Support Set Link Speed" : "No",
+			"Support JBOD" : "No",
+			"Disable Online PFK Change" : "No",
+			"Real Time Scheduler" : "No",
+			"Support Reset Now" : "No",
+			"Support Emulated Drives" : "No",
+			"Support Secure Boot" : "No",
+			"Support Platform Security" : "No",
+			"Support Package Stamp Mismatch Reporting" : "No"
+		},
+		"HwCfg" : {
+			"ChipRevision" : " B0",
+			"BatteryFRU" : "N/A",
+			"Front End Port Count" : 1,
+			"Backend Port Count" : 21,
+			"Serial Debugger" : "Absent",
+			"NVRAM Size" : "0KB",
+			"Flash Size" : "16MB",
+			"On Board Memory Size" : "0MB",
+			"On Board Expander" : "Absent",
+			"Temperature Sensor for ROC" : "Present",
+			"Temperature Sensor for Controller" : "Absent",
+			"Current Size of CacheCade (GB)" : 0,
+			"Current Size of FW Cache (MB)" : 0,
+			"ROC temperature(Degree Celsius)" : 57
+		},
+		"Policies" : {
+			"Policies Table" : [
+				{
+					"Policy" : "Predictive Fail Poll Interval",
+					"Current" : "0 sec",
+					"Default" : ""
+				},
+				{
+					"Policy" : "Interrupt Throttle Active Count",
+					"Current" : "0",
+					"Default" : ""
+				},
+				{
+					"Policy" : "Interrupt Throttle Completion",
+					"Current" : "0 us",
+					"Default" : ""
+				},
+				{
+					"Policy" : "Rebuild Rate",
+					"Current" : "0 %",
+					"Default" : "30%"
+				},
+				{
+					"Policy" : "PR Rate",
+					"Current" : "0 %",
+					"Default" : "30%"
+				},
+				{
+					"Policy" : "BGI Rate",
+					"Current" : "0 %",
+					"Default" : "30%"
+				},
+				{
+					"Policy" : "Check Consistency Rate",
+					"Current" : "0 %",
+					"Default" : "30%"
+				},
+				{
+					"Policy" : "Reconstruction Rate",
+					"Current" : "0 %",
+					"Default" : "30%"
+				},
+				{
+					"Policy" : "Cache Flush Interval",
+					"Current" : "0s",
+					"Default" : ""
+				}
+			],
+			"Flush Time(Default)" : "4s",
+			"Drive Coercion Mode" : "none",
+			"Auto Rebuild" : "Off",
+			"Battery Warning" : "Off",
+			"ECC Bucket Size" : 0,
+			"ECC Bucket Leak Rate (hrs)" : 0,
+			"Restore HotSpare on Insertion" : "Off",
+			"Expose Enclosure Devices" : "Off",
+			"Maintain PD Fail History" : "Off",
+			"Reorder Host Requests" : "On",
+			"Auto detect BackPlane" : "SGPIO/i2c SEP",
+			"Load Balance Mode" : "None",
+			"Security Key Assigned" : "Off",
+			"Disable Online Controller Reset" : "Off",
+			"Use drive activity for locate" : "Off"
+		},
+		"Boot" : {
+			"Max Drives to Spinup at One Time" : 2,
+			"Maximum number of direct attached drives to spin up in 1 min" : 60,
+			"Delay Among Spinup Groups (sec)" : 2,
+			"Allow Boot with Preserved Cache" : "On"
+		},
+		"Defaults" : {
+			"Phy Polarity" : 0,
+			"Phy PolaritySplit" : 0,
+			"Cached IO" : "Off",
+			"Default spin down time (mins)" : 0,
+			"Coercion Mode" : "None",
+			"ZCR Config" : "Unknown",
+			"Max Chained Enclosures" : 0,
+			"Direct PD Mapping" : "No",
+			"Restore Hot Spare on Insertion" : "No",
+			"Expose Enclosure Devices" : "No",
+			"Maintain PD Fail History" : "No",
+			"Zero Based Enclosure Enumeration" : "No",
+			"Disable Puncturing" : "No",
+			"Un-Certified Hard Disk Drives" : "Block",
+			"SMART Mode" : "Mode 6",
+			"Enable LED Header" : "No",
+			"LED Show Drive Activity" : "No",
+			"Dirty LED Shows Drive Activity" : "No",
+			"EnableCrashDump" : "No",
+			"Disable Online Controller Reset" : "No",
+			"Treat Single span R1E as R10" : "No",
+			"Power Saving option" : "Enable",
+			"TTY Log In Flash" : "No",
+			"Auto Enhanced Import" : "No",
+			"Enable Shield State" : "No",
+			"Time taken to detect CME" : "60 sec"
+		},
+		"Capabilities" : {
+			"Supported Drives" : "SAS, SATA",
+			"Enable JBOD" : "Yes",
+			"Max Parallel Commands" : 6656,
+			"Max SGE Count" : 128,
+			"Max Data Transfer Size" : "32 sectors",
+			"Max Strips PerIO" : 0,
+			"Max Configurable CacheCade Size" : 0,
+			"Min Strip Size" : "512Bytes",
+			"Max Strip Size" : "512Bytes"
+		},
+		"Scheduled Tasks" : "NA",
+		"Security Protocol properties" : {
+			"Security Protocol" : "None"
+		},
+		"Enclosure Information" : [
+			{
+				"EID" : 0,
+				"State" : "OK",
+				"Slots" : 12,
+				"PD" : 12,
+				"PS" : 0,
+				"Fans" : 0,
+				"TSs" : 0,
+				"Alms" : 0,
+				"SIM" : 0,
+				"ProdID" : "VirtualSES",
+				"VendorSpecific" : " "
+			},
+			{
+				"EID" : 16,
+				"State" : "OK",
+				"Slots" : 24,
+				"PD" : 14,
+				"PS" : 2,
+				"Fans" : 4,
+				"TSs" : 2,
+				"Alms" : 1,
+				"SIM" : 1,
+				"ProdID" : "AEC-82885T",
+				"VendorSpecific" : "PMCSIERA D"
+			}
+		],
+		"Physical Device Information" : {
+			"Drive /c0/e0/s0" : [
+				{
+					"EID:Slt" : "0:0",
+					"DID" : 17,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "7.277 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST8000AS0002-1NA17Z",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e0/s0 - Detailed Information" : {
+				"Drive /c0/e0/s0 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e0/s0 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST8000AS0002-1NA17Z",
+					"NAND Vendor" : "NA",
+					"SN" : "            Z8413FPZ",
+					"WWN" : "5000C500A54D8B57",
+					"Firmware Revision" : "AR17    ",
+					"Raw size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Non Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "6.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 15628053167,
+					"Connector Name" : "C0   x1"
+				},
+				"Drive /c0/e0/s0 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "9(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "6.0Gb/s",
+							"SAS address" : "0x300605b00e019a13"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 38 5a 31 34 46 33 5a 50 00 00 00 80 00 00 52 41 37 31 20 20 20 20 54 53 30 38 30 30 53 41 30 30 32 30 31 2d 41 4e 37 31 20 5a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5c ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e0/s1" : [
+				{
+					"EID:Slt" : "0:1",
+					"DID" : 19,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "7.277 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST8000AS0002-1NA17Z",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e0/s1 - Detailed Information" : {
+				"Drive /c0/e0/s1 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e0/s1 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST8000AS0002-1NA17Z",
+					"NAND Vendor" : "NA",
+					"SN" : "            Z8402X7T",
+					"WWN" : "5000C5007B030AD8",
+					"Firmware Revision" : "AR13    ",
+					"Raw size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Non Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "6.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 15628053167,
+					"Connector Name" : "C0   x1"
+				},
+				"Drive /c0/e0/s1 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "11(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "6.0Gb/s",
+							"SAS address" : "0x300605b00e019a15"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 38 5a 30 34 58 32 54 37 00 00 00 80 00 00 52 41 33 31 20 20 20 20 54 53 30 38 30 30 53 41 30 30 32 30 31 2d 41 4e 37 31 20 5a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5c ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e0/s2" : [
+				{
+					"EID:Slt" : "0:2",
+					"DID" : 21,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "7.277 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST8000AS0002-1NA17Z",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e0/s2 - Detailed Information" : {
+				"Drive /c0/e0/s2 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e0/s2 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST8000AS0002-1NA17Z",
+					"NAND Vendor" : "NA",
+					"SN" : "            Z8407MZ0",
+					"WWN" : "5000C5007BD4E55A",
+					"Firmware Revision" : "AR13    ",
+					"Raw size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Non Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "6.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 15628053167,
+					"Connector Name" : "C0   x1"
+				},
+				"Drive /c0/e0/s2 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "13(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "6.0Gb/s",
+							"SAS address" : "0x300605b00e019a17"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 38 5a 30 34 4d 37 30 5a 00 00 00 80 00 00 52 41 33 31 20 20 20 20 54 53 30 38 30 30 53 41 30 30 32 30 31 2d 41 4e 37 31 20 5a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5c ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e0/s3" : [
+				{
+					"EID:Slt" : "0:3",
+					"DID" : 23,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "7.277 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST8000AS0002-1NA17Z",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e0/s3 - Detailed Information" : {
+				"Drive /c0/e0/s3 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e0/s3 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST8000AS0002-1NA17Z",
+					"NAND Vendor" : "NA",
+					"SN" : "            Z84037ZS",
+					"WWN" : "5000C5007B0EBC7B",
+					"Firmware Revision" : "AR13    ",
+					"Raw size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Non Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "6.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 15628053167,
+					"Connector Name" : "C0   x1"
+				},
+				"Drive /c0/e0/s3 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "15(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "6.0Gb/s",
+							"SAS address" : "0x300605b00e019a19"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 38 5a 30 34 37 33 53 5a 00 00 00 80 00 00 52 41 33 31 20 20 20 20 54 53 30 38 30 30 53 41 30 30 32 30 31 2d 41 4e 37 31 20 5a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5c ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e0/s4" : [
+				{
+					"EID:Slt" : "0:4",
+					"DID" : 1,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "9.094 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "HGST HUH721010ALE604",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e0/s4 - Detailed Information" : {
+				"Drive /c0/e0/s4 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e0/s4 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "HGST HUH721010ALE604",
+					"NAND Vendor" : "NA",
+					"SN" : "JEJZDB6N            ",
+					"WWN" : "5000CCA267EA008B",
+					"Firmware Revision" : "LHGNW384",
+					"Raw size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Coerced size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Non Coerced size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "6.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 19532873727,
+					"Connector Name" : "C1   x1"
+				},
+				"Drive /c0/e0/s4 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "8(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "6.0Gb/s",
+							"SAS address" : "0x300605b00e019a12"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 04 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 45 4a 5a 4a 42 44 4e 36 20 20 20 20 20 20 20 20 20 20 20 20 03 00 00 00 38 00 48 4c 4e 47 33 57 34 38 47 48 54 53 48 20 48 55 32 37 30 31 30 31 4c 41 36 45 34 30 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 00 51 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e0/s5" : [
+				{
+					"EID:Slt" : "0:5",
+					"DID" : 18,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "7.277 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST8000VN0002-1Z8112",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e0/s5 - Detailed Information" : {
+				"Drive /c0/e0/s5 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e0/s5 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST8000VN0002-1Z8112",
+					"NAND Vendor" : "NA",
+					"SN" : "            ZA1224S8",
+					"WWN" : "5000C500916F6197",
+					"Firmware Revision" : "SC60    ",
+					"Raw size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Non Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "6.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 15628053167,
+					"Connector Name" : "C1   x1"
+				},
+				"Drive /c0/e0/s5 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "10(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "6.0Gb/s",
+							"SAS address" : "0x300605b00e019a14"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 41 5a 32 31 34 32 38 53 00 00 00 00 00 00 43 53 30 36 20 20 20 20 54 53 30 38 30 30 4e 56 30 30 32 30 31 2d 38 5a 31 31 20 32 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5c ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e0/s6" : [
+				{
+					"EID:Slt" : "0:6",
+					"DID" : 20,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "7.277 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST8000VN0002-1Z8112",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e0/s6 - Detailed Information" : {
+				"Drive /c0/e0/s6 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e0/s6 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST8000VN0002-1Z8112",
+					"NAND Vendor" : "NA",
+					"SN" : "            ZA120QC6",
+					"WWN" : "5000C500916F205B",
+					"Firmware Revision" : "SC60    ",
+					"Raw size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Non Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "6.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 15628053167,
+					"Connector Name" : "C1   x1"
+				},
+				"Drive /c0/e0/s6 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "12(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "6.0Gb/s",
+							"SAS address" : "0x300605b00e019a16"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 41 5a 32 31 51 30 36 43 00 00 00 00 00 00 43 53 30 36 20 20 20 20 54 53 30 38 30 30 4e 56 30 30 32 30 31 2d 38 5a 31 31 20 32 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5c ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e0/s7" : [
+				{
+					"EID:Slt" : "0:7",
+					"DID" : 22,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "7.277 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST8000VN0002-1Z8112",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e0/s7 - Detailed Information" : {
+				"Drive /c0/e0/s7 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e0/s7 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST8000VN0002-1Z8112",
+					"NAND Vendor" : "NA",
+					"SN" : "            ZA122LA5",
+					"WWN" : "5000C500916EEACF",
+					"Firmware Revision" : "SC60    ",
+					"Raw size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Non Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "6.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 15628053167,
+					"Connector Name" : "C1   x1"
+				},
+				"Drive /c0/e0/s7 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "14(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "6.0Gb/s",
+							"SAS address" : "0x300605b00e019a18"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 41 5a 32 31 4c 32 35 41 00 00 00 00 00 00 43 53 30 36 20 20 20 20 54 53 30 38 30 30 4e 56 30 30 32 30 31 2d 38 5a 31 31 20 32 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5c ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e0/s8" : [
+				{
+					"EID:Slt" : "0:8",
+					"DID" : 24,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "7.277 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST8000VN0002-1Z8112",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e0/s8 - Detailed Information" : {
+				"Drive /c0/e0/s8 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e0/s8 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST8000VN0002-1Z8112",
+					"NAND Vendor" : "NA",
+					"SN" : "            ZA11WZXK",
+					"WWN" : "5000C500916020F3",
+					"Firmware Revision" : "SC60    ",
+					"Raw size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Non Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "6.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 15628053167,
+					"Connector Name" : "C2   x1"
+				},
+				"Drive /c0/e0/s8 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "6.0Gb/s",
+							"SAS address" : "0x300605b00e019a0b"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 41 5a 31 31 5a 57 4b 58 00 00 00 00 00 00 43 53 30 36 20 20 20 20 54 53 30 38 30 30 4e 56 30 30 32 30 31 2d 38 5a 31 31 20 32 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5c ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e0/s9" : [
+				{
+					"EID:Slt" : "0:9",
+					"DID" : 25,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "7.277 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST8000VN0002-1Z8112",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e0/s9 - Detailed Information" : {
+				"Drive /c0/e0/s9 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e0/s9 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST8000VN0002-1Z8112",
+					"NAND Vendor" : "NA",
+					"SN" : "            ZA11X1KL",
+					"WWN" : "5000C5009165D7BB",
+					"Firmware Revision" : "SC60    ",
+					"Raw size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Non Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "6.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 15628053167,
+					"Connector Name" : "C2   x1"
+				},
+				"Drive /c0/e0/s9 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "2(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "6.0Gb/s",
+							"SAS address" : "0x300605b00e019a0d"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 41 5a 31 31 31 58 4c 4b 00 00 00 00 00 00 43 53 30 36 20 20 20 20 54 53 30 38 30 30 4e 56 30 30 32 30 31 2d 38 5a 31 31 20 32 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5c ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e0/s10" : [
+				{
+					"EID:Slt" : "0:10",
+					"DID" : 26,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "7.277 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST8000VN0002-1Z8112",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e0/s10 - Detailed Information" : {
+				"Drive /c0/e0/s10 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e0/s10 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST8000VN0002-1Z8112",
+					"NAND Vendor" : "NA",
+					"SN" : "            ZA122L3B",
+					"WWN" : "5000C500916F523A",
+					"Firmware Revision" : "SC60    ",
+					"Raw size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Non Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "6.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 15628053167,
+					"Connector Name" : "C2   x1"
+				},
+				"Drive /c0/e0/s10 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "3(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "6.0Gb/s",
+							"SAS address" : "0x300605b00e019a0f"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 41 5a 32 31 4c 32 42 33 00 00 00 00 00 00 43 53 30 36 20 20 20 20 54 53 30 38 30 30 4e 56 30 30 32 30 31 2d 38 5a 31 31 20 32 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5c ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e0/s11" : [
+				{
+					"EID:Slt" : "0:11",
+					"DID" : 27,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "7.277 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST8000VN0002-1Z8112",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e0/s11 - Detailed Information" : {
+				"Drive /c0/e0/s11 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e0/s11 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST8000VN0002-1Z8112",
+					"NAND Vendor" : "NA",
+					"SN" : "            ZA122CF9",
+					"WWN" : "5000C500916F8267",
+					"Firmware Revision" : "SC60    ",
+					"Raw size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Non Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "6.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 15628053167,
+					"Connector Name" : "C2   x1"
+				},
+				"Drive /c0/e0/s11 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "4(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "6.0Gb/s",
+							"SAS address" : "0x300605b00e019a11"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 41 5a 32 31 43 32 39 46 00 00 00 00 00 00 43 53 30 36 20 20 20 20 54 53 30 38 30 30 4e 56 30 30 32 30 31 2d 38 5a 31 31 20 32 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5c ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e16/s0" : [
+				{
+					"EID:Slt" : "16:0",
+					"DID" : 2,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "7.277 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST8000DM004-2CX188",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e16/s0 - Detailed Information" : {
+				"Drive /c0/e16/s0 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e16/s0 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST8000DM004-2CX188",
+					"NAND Vendor" : "NA",
+					"SN" : "            WCT03Z5X",
+					"WWN" : "5000C500AAB26F8B",
+					"Firmware Revision" : "0001    ",
+					"Raw size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Non Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 15628053167,
+					"Connector Name" : "C3   "
+				},
+				"Drive /c0/e16/s0 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "0(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x50000d17012ce680"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 43 57 30 54 5a 33 58 35 00 00 00 00 00 00 30 30 31 30 20 20 20 20 54 53 30 38 30 30 4d 44 30 30 2d 34 43 32 31 58 38 38 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5c ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e16/s1" : [
+				{
+					"EID:Slt" : "16:1",
+					"DID" : 3,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "7.277 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST8000VN0002-1Z8112",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e16/s1 - Detailed Information" : {
+				"Drive /c0/e16/s1 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e16/s1 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST8000VN0002-1Z8112",
+					"NAND Vendor" : "NA",
+					"SN" : "            ZA10NEZL",
+					"WWN" : "5000C5009085ACF6",
+					"Firmware Revision" : "SC60    ",
+					"Raw size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Non Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 15628053167,
+					"Connector Name" : "C3   "
+				},
+				"Drive /c0/e16/s1 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "0(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x50000d17012ce681"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 41 5a 30 31 45 4e 4c 5a 00 00 00 00 00 00 43 53 30 36 20 20 20 20 54 53 30 38 30 30 4e 56 30 30 32 30 31 2d 38 5a 31 31 20 32 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5c ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e16/s2" : [
+				{
+					"EID:Slt" : "16:2",
+					"DID" : 4,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "7.277 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST8000VN004-2M2101",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e16/s2 - Detailed Information" : {
+				"Drive /c0/e16/s2 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e16/s2 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST8000VN004-2M2101",
+					"NAND Vendor" : "NA",
+					"SN" : "            WSD27GVK",
+					"WWN" : "5000C500DB6036B4",
+					"Firmware Revision" : "SC60    ",
+					"Raw size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Non Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 15628053167,
+					"Connector Name" : "C3   "
+				},
+				"Drive /c0/e16/s2 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "0(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x50000d17012ce682"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 53 57 32 44 47 37 4b 56 00 00 00 00 00 00 43 53 30 36 20 20 20 20 54 53 30 38 30 30 4e 56 30 30 2d 34 4d 32 31 32 31 30 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5d ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e16/s3" : [
+				{
+					"EID:Slt" : "16:3",
+					"DID" : 5,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "9.094 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST10000NM0016-1TT101",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e16/s3 - Detailed Information" : {
+				"Drive /c0/e16/s3 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e16/s3 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST10000NM0016-1TT101",
+					"NAND Vendor" : "NA",
+					"SN" : "            ZA2BGW56",
+					"WWN" : "5000C500B68E7826",
+					"Firmware Revision" : "SNE0    ",
+					"Raw size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Coerced size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Non Coerced size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 19532873727,
+					"Connector Name" : "C3   "
+				},
+				"Drive /c0/e16/s3 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "0(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x50000d17012ce683"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 41 5a 42 32 57 47 36 35 00 00 00 00 00 00 4e 53 30 45 20 20 20 20 54 53 30 31 30 30 4e 30 30 4d 31 30 2d 36 54 31 31 54 31 30 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5d ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e16/s4" : [
+				{
+					"EID:Slt" : "16:4",
+					"DID" : 6,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "7.277 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST8000VN0002-1Z8112",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e16/s4 - Detailed Information" : {
+				"Drive /c0/e16/s4 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e16/s4 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST8000VN0002-1Z8112",
+					"NAND Vendor" : "NA",
+					"SN" : "            ZA10NFF5",
+					"WWN" : "5000C50090859F3D",
+					"Firmware Revision" : "SC60    ",
+					"Raw size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Non Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 15628053167,
+					"Connector Name" : "C3   "
+				},
+				"Drive /c0/e16/s4 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "0(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x50000d17012ce684"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 41 5a 30 31 46 4e 35 46 00 00 00 00 00 00 43 53 30 36 20 20 20 20 54 53 30 38 30 30 4e 56 30 30 32 30 31 2d 38 5a 31 31 20 32 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5c ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e16/s5" : [
+				{
+					"EID:Slt" : "16:5",
+					"DID" : 7,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "9.094 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "HGST HUH721010ALE604",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e16/s5 - Detailed Information" : {
+				"Drive /c0/e16/s5 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e16/s5 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "HGST HUH721010ALE604",
+					"NAND Vendor" : "NA",
+					"SN" : "JEK2D4LN            ",
+					"WWN" : "5000CCA267EB5CDB",
+					"Firmware Revision" : "LHGNW384",
+					"Raw size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Coerced size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Non Coerced size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 19532873727,
+					"Connector Name" : "C3   "
+				},
+				"Drive /c0/e16/s5 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "0(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x50000d17012ce685"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 04 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 45 4a 32 4b 34 44 4e 4c 20 20 20 20 20 20 20 20 20 20 20 20 03 00 00 00 38 00 48 4c 4e 47 33 57 34 38 47 48 54 53 48 20 48 55 32 37 30 31 30 31 4c 41 36 45 34 30 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 00 51 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e16/s6" : [
+				{
+					"EID:Slt" : "16:6",
+					"DID" : 8,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "9.094 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST10000VN0004-1ZD101",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e16/s6 - Detailed Information" : {
+				"Drive /c0/e16/s6 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e16/s6 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST10000VN0004-1ZD101",
+					"NAND Vendor" : "NA",
+					"SN" : "            ZA21FX8H",
+					"WWN" : "5000C500A33172D2",
+					"Firmware Revision" : "SC60    ",
+					"Raw size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Coerced size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Non Coerced size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 19532873727,
+					"Connector Name" : "C3   "
+				},
+				"Drive /c0/e16/s6 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "0(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x50000d17012ce686"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 41 5a 31 32 58 46 48 38 00 00 00 00 00 00 43 53 30 36 20 20 20 20 54 53 30 31 30 30 56 30 30 4e 30 30 2d 34 5a 31 31 44 31 30 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5d ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e16/s7" : [
+				{
+					"EID:Slt" : "16:7",
+					"DID" : 9,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "9.094 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST10000VN0004-2GS11L",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e16/s7 - Detailed Information" : {
+				"Drive /c0/e16/s7 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e16/s7 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST10000VN0004-2GS11L",
+					"NAND Vendor" : "NA",
+					"SN" : "            ZJV04QW8",
+					"WWN" : "5000C500AF6FA21B",
+					"Firmware Revision" : "SC60    ",
+					"Raw size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Coerced size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Non Coerced size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 19532873727,
+					"Connector Name" : "C3   "
+				},
+				"Drive /c0/e16/s7 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "0(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x50000d17012ce687"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 4a 5a 30 56 51 34 38 57 00 00 00 00 00 00 43 53 30 36 20 20 20 20 54 53 30 31 30 30 56 30 30 4e 30 30 2d 34 47 32 31 53 4c 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5d ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e16/s12" : [
+				{
+					"EID:Slt" : "16:12",
+					"DID" : 10,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "7.277 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST8000AS0002-1NA17Z",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e16/s12 - Detailed Information" : {
+				"Drive /c0/e16/s12 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e16/s12 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST8000AS0002-1NA17Z",
+					"NAND Vendor" : "NA",
+					"SN" : "            Z840XD33",
+					"WWN" : "5000C50093945C96",
+					"Firmware Revision" : "AR17    ",
+					"Raw size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Non Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 15628053167,
+					"Connector Name" : "C3   "
+				},
+				"Drive /c0/e16/s12 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "0(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x50000d17012ce68c"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 38 5a 30 34 44 58 33 33 00 00 00 80 00 00 52 41 37 31 20 20 20 20 54 53 30 38 30 30 53 41 30 30 32 30 31 2d 41 4e 37 31 20 5a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5c ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e16/s13" : [
+				{
+					"EID:Slt" : "16:13",
+					"DID" : 11,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "9.094 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "HGST HUH721010ALE604",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e16/s13 - Detailed Information" : {
+				"Drive /c0/e16/s13 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e16/s13 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "HGST HUH721010ALE604",
+					"NAND Vendor" : "NA",
+					"SN" : "JEH05S0N            ",
+					"WWN" : "5000CCA267CE2D0F",
+					"Firmware Revision" : "LHGNW384",
+					"Raw size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Coerced size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Non Coerced size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 19532873727,
+					"Connector Name" : "C3   "
+				},
+				"Drive /c0/e16/s13 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "0(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x50000d17012ce68d"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 04 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 45 4a 30 48 53 35 4e 30 20 20 20 20 20 20 20 20 20 20 20 20 03 00 00 00 38 00 48 4c 4e 47 33 57 34 38 47 48 54 53 48 20 48 55 32 37 30 31 30 31 4c 41 36 45 34 30 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 00 51 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e16/s14" : [
+				{
+					"EID:Slt" : "16:14",
+					"DID" : 12,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "9.094 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST10000NM0016-1TT101",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e16/s14 - Detailed Information" : {
+				"Drive /c0/e16/s14 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e16/s14 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST10000NM0016-1TT101",
+					"NAND Vendor" : "NA",
+					"SN" : "            ZA2BP6WG",
+					"WWN" : "5000C500C2AE1937",
+					"Firmware Revision" : "SNE0    ",
+					"Raw size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Coerced size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Non Coerced size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 19532873727,
+					"Connector Name" : "C3   "
+				},
+				"Drive /c0/e16/s14 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "0(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x50000d17012ce68e"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 41 5a 42 32 36 50 47 57 00 00 00 00 00 00 4e 53 30 45 20 20 20 20 54 53 30 31 30 30 4e 30 30 4d 31 30 2d 36 54 31 31 54 31 30 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5d ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e16/s17" : [
+				{
+					"EID:Slt" : "16:17",
+					"DID" : 13,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "9.094 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "HGST HUH721010ALE604",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e16/s17 - Detailed Information" : {
+				"Drive /c0/e16/s17 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e16/s17 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "HGST HUH721010ALE604",
+					"NAND Vendor" : "NA",
+					"SN" : "JEK2D3ZN            ",
+					"WWN" : "5000CCA267EB5CC8",
+					"Firmware Revision" : "LHGNW384",
+					"Raw size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Coerced size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Non Coerced size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 19532873727,
+					"Connector Name" : "C3   "
+				},
+				"Drive /c0/e16/s17 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "0(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x50000d17012ce691"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 04 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 45 4a 32 4b 33 44 4e 5a 20 20 20 20 20 20 20 20 20 20 20 20 03 00 00 00 38 00 48 4c 4e 47 33 57 34 38 47 48 54 53 48 20 48 55 32 37 30 31 30 31 4c 41 36 45 34 30 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 00 51 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e16/s18" : [
+				{
+					"EID:Slt" : "16:18",
+					"DID" : 14,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "9.094 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST10000VN0004-1ZD101",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e16/s18 - Detailed Information" : {
+				"Drive /c0/e16/s18 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e16/s18 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST10000VN0004-1ZD101",
+					"NAND Vendor" : "NA",
+					"SN" : "            ZA2ADF4T",
+					"WWN" : "5000C500B43F9DA5",
+					"Firmware Revision" : "SC60    ",
+					"Raw size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Coerced size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Non Coerced size" : "9.094 TB [0x48c3fffff Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 19532873727,
+					"Connector Name" : "C3   "
+				},
+				"Drive /c0/e16/s18 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "0(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x50000d17012ce692"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 41 5a 41 32 46 44 54 34 00 00 00 00 00 00 43 53 30 36 20 20 20 20 54 53 30 31 30 30 56 30 30 4e 30 30 2d 34 5a 31 31 44 31 30 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5d ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e16/s19" : [
+				{
+					"EID:Slt" : "16:19",
+					"DID" : 15,
+					"State" : "JBOD",
+					"DG" : "-",
+					"Size" : "7.277 TB",
+					"Intf" : "SATA",
+					"Med" : "HDD",
+					"SED" : "-",
+					"PI" : "-",
+					"SeSz" : "512B",
+					"Model" : "ST8000AS0002-1NA17Z",
+					"Sp" : "-"
+				}
+			],
+			"Drive /c0/e16/s19 - Detailed Information" : {
+				"Drive /c0/e16/s19 State" : {
+					"Shield Counter" : "N/A",
+					"Media Error Count" : "N/A",
+					"Other Error Count" : "N/A",
+					"Predictive Failure Count" : "N/A",
+					"S.M.A.R.T alert flagged by drive" : "N/A"
+				},
+				"Drive /c0/e16/s19 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "ST8000AS0002-1NA17Z",
+					"NAND Vendor" : "NA",
+					"SN" : "            Z8407MPY",
+					"WWN" : "5000C5007BD4EC98",
+					"Firmware Revision" : "AR13    ",
+					"Raw size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Non Coerced size" : "7.277 TB [0x3a3812aaf Sectors]",
+					"Device Speed" : "6.0Gb/s",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 15628053167,
+					"Connector Name" : "C3   "
+				},
+				"Drive /c0/e16/s19 Policies/Settings" : {
+					"Enclosure position" : "0",
+					"Connected Port Number" : "0(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : "N/A",
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "N/A",
+					"SED Enabled" : "N/A",
+					"Secured" : "N/A",
+					"Needs EKM Attention" : "N/A",
+					"PI Eligible" : "N/A",
+					"Certified" : "N/A",
+					"Wide Port Capable" : "N/A",
+					"Multipath" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x50000d17012ce693"
+						}
+					]
+				},
+				"Inquiry Data" : "5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 38 5a 30 34 4d 37 59 50 00 00 00 80 00 00 52 41 33 31 20 20 20 20 54 53 30 38 30 30 53 41 30 30 32 30 31 2d 41 4e 37 31 20 5a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 5c ff ff ff 0f 00 00 07 00 "
+			}
+		}
+	}
+}
+]
+}
+
