@@ -27,27 +27,20 @@ to `/usr/local/bin/telegraf-exec-storcli`:
   data_format = "influx"      
 ```
 
-Then in InfluxDB:
+Then in InfluxDB, the `storcli_controller` measurement will have these tags:
 
 ```
-> show field keys from storcli
-name: zpool
-fieldKey      fieldType
---------      ---------
-allocated     integer
-capacity      integer
-checkpoint    integer
-dedup         float
-expand        integer
-fragmentation integer
-free          integer
-health        integer
-size          integer
-> show tag keys from zpool
-name: zpool
-tagKey
-------
-alternative_root
+adapter
 host
-pool
+model
+serial
+```
+
+And these fields:
+
+```
+memory_correctable_errors
+memory_uncorrectable_errors
+roc_temperature
+status
 ```
