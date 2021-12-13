@@ -3,11 +3,17 @@ package main
 import (
 	"fmt"
 	"log"
-	"strconv"
 	"time"
 
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
 	"github.com/influxdata/influxdb-client-go/v2/api/write"
+)
+
+const (
+	precision = time.Nanosecond
+
+	controllerMeasurement = "storcli_controller"
+	enclosureMeasurement  = "storcli_enclosure"
 )
 
 func check(err error) {
@@ -22,7 +28,7 @@ func main() {
 	list, err := cli.List()
 	check(err)
 
-	t := time.Now()
+	t := time.Now().UTC()
 
 	for _, c := range list {
 		ctrl, err := cli.Show(c.Number)
@@ -41,29 +47,29 @@ func main() {
 			"memory_uncorrectable_errors": ctrl.MemoryUncorrectableErrors,
 		}
 
-		p := influxdb2.NewPoint("storcli.controller",
+		p := influxdb2.NewPoint(controllerMeasurement,
 			adapter_tags,
 			adapter_fields,
 			t)
 
-		fmt.Print(write.PointToLineProtocol(p, time.Second))
+		fmt.Print(write.PointToLineProtocol(p, precision))
 
-		for _, enc := range ctrl.Enclosures {
-			enclosure_tags := adapter_tags
-			enclosure_tags["enclosure_id"] = strconv.Itoa(enc.EID)
-			enclosure_tags["product_id"] = enc.ProductId
-			enclosure_tags["vendor_id"] = enc.VendorSpecific
+		// for _, enc := range ctrl.Enclosures {
+		// 	enclosure_tags := adapter_tags
+		// 	enclosure_tags["enclosure_id"] = strconv.Itoa(enc.EID)
+		// 	enclosure_tags["product_id"] = enc.ProductId
+		// 	enclosure_tags["vendor_id"] = enc.VendorSpecific
 
-			enclosure_fields := map[string]interface{}{
-				"state": enc.State,
-			}
+		// 	enclosure_fields := map[string]interface{}{
+		// 		"state": enc.State,
+		// 	}
 
-			p := influxdb2.NewPoint("storcli.enclosure",
-				enclosure_tags,
-				enclosure_fields,
-				t)
+		// 	p := influxdb2.NewPoint(enclosureMeasurement,
+		// 		enclosure_tags,
+		// 		enclosure_fields,
+		// 		t)
 
-			fmt.Print(write.PointToLineProtocol(p, time.Second))
-		}
+		// 	fmt.Print(write.PointToLineProtocol(p, precision))
+		// }
 	}
 }
